@@ -1,4 +1,4 @@
-src = lib/theta-viewer.js
+src = lib/async.js lib/three.js lib/OrbitControls.js lib/theta-viewer.js
 dest = theta-viewer.js
 dest_min = theta-viewer.min.js
 header = HEADER.txt
