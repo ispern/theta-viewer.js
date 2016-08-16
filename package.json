@@ -22,5 +22,6 @@
     "grunt": "*",
     "coffee-errors": "*",
     "uglify-js": "*"
-  }
+  },
+  "typings": "./theta-viewer.d.ts",
 }
