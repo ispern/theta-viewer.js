@@ -1,5 +1,6 @@
 {
   "name": "theta-viewer",
+  "version": "0.0.2",
   "description": "ricoh theta viewer",
   "main": "lib/theta-viewer.js",
   "scripts": {
