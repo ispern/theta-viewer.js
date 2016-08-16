@@ -23,5 +23,5 @@
     "coffee-errors": "*",
     "uglify-js": "*"
   },
-  "typings": "./theta-viewer.d.ts",
+  "typings": "./theta-viewer.d.ts"
 }
