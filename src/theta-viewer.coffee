@@ -4,9 +4,11 @@ class ThetaViewer
       return @dom.clientWidth
     @__defineGetter__ 'height', ->
       return @dom.clientHeight
+
     @images = []
     @interval = 1000
     @materialOffset = 0
+    THREE.ImageUtils.crossOrigin = "*"
     @camera = new THREE.PerspectiveCamera 100, @width/@height
     @camera.position.set 0, 0, 180
     @scene = new THREE.Scene
